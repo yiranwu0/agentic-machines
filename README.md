@@ -147,7 +147,3 @@ result = agent("Find the population of Tokyo")
 print(result.output)
 print(f"Total cost: ${result.info['llm_usage']['total_cost']:.4f}")
 ```
-
-## License
-
-See the root project [LICENSE](../LICENSE) for details.
